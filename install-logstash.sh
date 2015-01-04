@@ -45,7 +45,8 @@ filter {
 
 output {
   elasticsearch { 
-    host => localhost 
+    host => localhost
+    protocol => "http" 
   }
 }
 EOF
